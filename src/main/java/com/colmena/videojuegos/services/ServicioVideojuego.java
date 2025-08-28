@@ -67,7 +67,7 @@ public class ServicioVideojuego implements ServicioBase<Videojuego>{
             Optional<Videojuego> opt = this.repositorio.findById(id);
             if (!opt.isEmpty()) {
                 Videojuego videojuego = opt.get();
-                videojuego.setActivo(!videojuego.isActivo());
+                videojuego.setActivo(false);
                 this.repositorio.save(videojuego);
             } else {
                 throw new Exception();

@@ -30,5 +30,25 @@ public class Estudio {
     public boolean  isActivo() {
         return activo;
     }
+
+    public long getId() {
+        return id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public List<Videojuego> getVideojuegos() {
+        return videojuegos;
+    }
+    public void setVideojuegos(List<Videojuego> videojuegos) {
+        this.videojuegos = videojuegos;
+    }
+    public void addVideojuego(Videojuego videojuego) {
+        this.videojuegos.add(videojuego);
+    }
 }
 

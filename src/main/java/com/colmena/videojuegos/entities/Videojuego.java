@@ -55,4 +55,57 @@ public class Videojuego {
     public void setActivo(boolean activo) {
         this.activo = activo;
     }
+    public String getImagen() {
+        return this.imagen;
+    }
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
+    }
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+    public String getDescripcion() {
+        return descripcion;
+    }
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+    public float getPrecio() {
+        return precio;
+    }
+    public void setPrecio(float precio) {
+        this.precio = precio;
+    }
+    public short getStock() {
+        return stock;
+    }
+    public void setStock(short stock) {
+        this.stock = stock;
+    }
+    public Date getFechaLanzamiento() {
+        return fechaLanzamiento;
+    }
+    public void setFechaLanzamiento(Date fechaLanzamiento) {
+        this.fechaLanzamiento = fechaLanzamiento;
+    }
+    public Estudio getEstudio() {
+        return estudio;
+    }
+    public void setEstudio(Estudio estudio) {
+        this.estudio = estudio;
+    }
+    public Categoria getCategoria() {
+        return categoria;
+    }
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
+    }
+    public long getId() {
+        return id;
+    }
+
 }
